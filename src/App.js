@@ -4,9 +4,9 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="bg-blue-600">
+    <div className="bg-blue-600 w-full">
       <div><Header /></div>
-      <div>
+      <div className="sm:mt-4">
         <Landing />
       </div>
     </div>
