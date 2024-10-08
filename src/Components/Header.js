@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { FiMenu } from 'react-icons/fi';
-import Link from './Link'; // Adjust the import path for your Link component
+import Link from './Link'; 
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -14,7 +14,7 @@ export default function Header() {
       <div className="relative flex py-3 text-white">
         <div className="lg:flex lg:flex-1 lg:px-8">
           <h1 className="flex px-4 text-2xl font-bold">
-            Drone company.
+            PVMEX
           </h1>
         </div>
         <div className="lg:flex lg:flex-1 lg:items-center hidden">
@@ -34,8 +34,8 @@ export default function Header() {
       </div>
       {isMenuOpen && (
         <div className="grid gap-1 bg-white text-black mx-1  p-4 rounded-md shadow-lg lg:hidden ">
-          <p>Home</p>
-          <p>Services</p>
+          <p className='hover:font-extrabold'>Home</p>
+          <p className='hover:font-extrabold'>Services</p>
           <p>Resources</p>
           <p>Us</p>
           <p>Contact</p>
