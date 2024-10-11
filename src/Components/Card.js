@@ -4,7 +4,7 @@ export default function Card ({title, text}) {
             <h1 className="p-3">
                 {title}
             </h1>
-            <p className="text-gray-400 px-4 hover:text-white">
+            <p className="text-gray-400 px-4 hover:text-white ">
                 {text}
             </p>
         </div>
