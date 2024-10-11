@@ -1,11 +1,12 @@
 import { motion } from "framer-motion"
+import Card from "./Card"
 
 export default function Middle() {
     return (
         <div className="flex px-10 bg-neutral-100 h-fit p-8">
             <div className="flex-initial flex flex-col justify-center w-1/3 h-screen mr-10 p-10">
                 <h2 className="text-gray-400">
-                    Our services
+                    OUR SERVICES
                 </h2>
                 <h1 className="text-5xl py-3">
                     We provide a lot of cool services!
@@ -21,8 +22,13 @@ export default function Middle() {
                     Our services
                 </motion.button>
             </div>
-            <div className="flex-1 flex justify-center">
-                <p className="">hi</p>
+            <div className="flex-1 grid gap-3 grid-cols-3 grid-rows-2 items-center">
+                <Card title={"Termography"} text={"Lorem ipsum dolor sit amet consectetur, adipiscing elit eros fringilla."} />
+                <Card title={"Reports"} text={"Lorem ipsum dolor sit amet consectetur, adipiscing elit eget convallis."} />
+                <Card title={"Monitoring"} text={"Lorem ipsum dolor sit amet consectetur, adipiscing elit natoque erat."}/>
+                <Card title={"Analysis"} text={"Lorem ipsum dolor sit amet consectetur, adipiscing elit interdum vestibulum."} />
+                <Card title={"AI"} text={"Lorem ipsum dolor sit amet consectetur, adipiscing elit commodo varius."} />
+                <Card title={"Debugging"} text={"Lorem ipsum dolor sit amet consectetur, adipiscing elit aenean venenatis."} />
             </div>
         </div>
     )
