@@ -1,6 +1,8 @@
 import Header from "./Components/Header";
 import Landing from "./Components/Landing";
 import Middle from "./Components/Middle"
+import AboutUs from "./Components/AboutUs";
+// import Footer from .....
 import "./App.css";
 
 function App() {
@@ -12,6 +14,9 @@ function App() {
       </div>
       <div>
         <Middle />
+      </div>
+      <div>
+        <AboutUs />
       </div>
     </div>
   );
