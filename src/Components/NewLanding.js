@@ -6,7 +6,7 @@ export default function NewLanding() {
   return (
     <div className="px-5 pb-8 text-white lg:grid lg:grid-cols-2">
       <div className="sm:my-5">
-        <div className="sm:h-36 md:h-48 h-24">
+        <div className="sm:h-36 ">
           <h1 className="font-extrabold sm:text-6xl text-4xl">
             <ReactTyped
               strings={["Boost your solar plant production."]}
