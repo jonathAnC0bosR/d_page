@@ -1,5 +1,6 @@
 import Header from "./Components/Header";
 import Landing from "./Components/Landing";
+import NewLanding from "./Components/NewLanding";
 import Middle from "./Components/Middle"
 import AboutUs from "./Components/AboutUs";
 // import Footer from .....
@@ -10,7 +11,7 @@ function App() {
     <div className="bg-blue-600 w-full">
       <div><Header /></div>
       <div className="sm:mt-4">
-        <Landing />
+        <NewLanding />
       </div>
       <div>
         <Middle />
