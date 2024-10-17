@@ -3,8 +3,8 @@ import Card from "./Card"
 
 export default function Middle() {
     return (
-        <div className="flex px-10 bg-neutral-100 h-fit p-8">
-            <div className="flex-initial flex flex-col justify-center w-1/3 h-screen mr-10 p-10">
+        <div className="lg:flex px-10 bg-neutral-100 h-fit p-8 custom-md:grid custom-md:grid-rows-2">
+            <div className="lg:flex-initial flex flex-col justify-center lg:w-1/3 lg:h-screen mr-10 p-10">
                 <h2 className="text-gray-400">
                     OUR SERVICES
                 </h2>
@@ -22,7 +22,7 @@ export default function Middle() {
                     Our services
                 </motion.button>
             </div>
-            <div className="flex-1 grid gap-3 grid-cols-3 grid-rows-2 items-center">
+            <div className="lg:flex-1 lg:grid gap-3 sm:grid-cols-3 lg:grid-rows-2 items-center grid grid-rows-5">
                 <Card title={"Termography"} text={"Lorem ipsum dolor sit amet consectetur, adipiscing elit eros fringilla."} />
                 <Card title={"Reports"} text={"Lorem ipsum dolor sit amet consectetur, adipiscing elit eget convallis."} />
                 <Card title={"Monitoring"} text={"Lorem ipsum dolor sit amet consectetur, adipiscing elit natoque erat."}/>

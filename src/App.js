@@ -1,5 +1,5 @@
 import Header from "./Components/Header";
-import Landing from "./Components/Landing";
+// import Landing from "./Components/Landing";
 import NewLanding from "./Components/NewLanding";
 import Middle from "./Components/Middle"
 import AboutUs from "./Components/AboutUs";
