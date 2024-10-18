@@ -12,7 +12,7 @@ export default function NewLanding() {
               strings={["Boost your solar plant production."]}
               typeSpeed={40}
               backSpeed={50}
-              loop
+              
             />
           </h1>
         </div>
@@ -22,16 +22,16 @@ export default function NewLanding() {
           curabitur sem sapien cubilia odio porta class.
         </p>
 
-        <div className="lg:max-h-80 lg:h-screen items-center flex justify-center">
+        {/* <div className="lg:max-h-80 lg:h-screen items-center flex justify-center">
           <div className="flex justify-center flex-col lg:flex-row gap-8 sm:justify-center lg:flex-grow my-8 ">
             <Clickable text={"Request a quotation"} />
             <Clickable text={"Watch a preview"} />
           </div>
-        </div>
+        </div> */}
       </div>
-      <div className="flex justify-center">
+      {/* <div className="flex justify-center">
         <img className="rounded-lg" src={t_img} alt="Termography img " />
-      </div>
+      </div> */}
     </div>
   );
 }

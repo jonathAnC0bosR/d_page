@@ -14,11 +14,11 @@ export default function Header() {
     <>
       <div className="flex py-3 text-white">
         <div className="flex lg:flex-1 px-14 items-center ">
-          <div>
+          {/* <div>
             <img src={g_logo} alt='G_logo' className='h-10 w-10' />
-          </div>
+          </div> */}
           <h1 className="lg:flex px-4 text-2xl font-bold">
-            PVMEX
+            ECODRON
           </h1>
 
         </div>
