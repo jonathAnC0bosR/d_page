@@ -1,12 +1,23 @@
-import img_1 from "../Images/img_1.jpeg";
+import img_1 from "../Images/Component 1 (1).png";
 import img_2 from "../Images/img_2.jpeg";
 import img_3 from "../Images/img_3.jpeg";
 import img_4 from "../Images/img_4.jpeg";
 import { motion } from "framer-motion";
 import Carrousel from "./Carrousel";
+import { GiDeliveryDrone } from "react-icons/gi";
+import Card from "./Card";
+
+const img1Wrapped = (
+  <div>
+    <div>
+      <GiDeliveryDrone />
+    </div>
+    <div>hello</div>
+    <p>point</p>
+  </div>
+);
 
 const slides = [img_1, img_2, img_3, img_4];
-// import Card from "./Card"
 
 export default function Middle() {
   return (
@@ -29,13 +40,43 @@ export default function Middle() {
         </motion.button>
       </div>
       {/* <div className="lg:flex-1 lg:grid gap-3 sm:grid-cols-3 lg:grid-rows-2 items-center grid grid-rows-5">
-                <Card title={"Termography"} text={"Lorem ipsum dolor sit amet consectetur, adipiscing elit eros fringilla."} />
-                <Card title={"Reports"} text={"Lorem ipsum dolor sit amet consectetur, adipiscing elit eget convallis."} />
-                <Card title={"Monitoring"} text={"Lorem ipsum dolor sit amet consectetur, adipiscing elit natoque erat."}/>
-                <Card title={"Analysis"} text={"Lorem ipsum dolor sit amet consectetur, adipiscing elit interdum vestibulum."} />
-                <Card title={"AI"} text={"Lorem ipsum dolor sit amet consectetur, adipiscing elit commodo varius."} />
-                <Card title={"Debugging"} text={"Lorem ipsum dolor sit amet consectetur, adipiscing elit aenean venenatis."} />
-            </div> */}
+        <Card
+          title={"Termography"}
+          text={
+            "Lorem ipsum dolor sit amet consectetur, adipiscing elit eros fringilla."
+          }
+        />
+        <Card
+          title={"Reports"}
+          text={
+            "Lorem ipsum dolor sit amet consectetur, adipiscing elit eget convallis."
+          }
+        />
+        <Card
+          title={"Monitoring"}
+          text={
+            "Lorem ipsum dolor sit amet consectetur, adipiscing elit natoque erat."
+          }
+        />
+        <Card
+          title={"Analysis"}
+          text={
+            "Lorem ipsum dolor sit amet consectetur, adipiscing elit interdum vestibulum."
+          }
+        />
+        <Card
+          title={"AI"}
+          text={
+            "Lorem ipsum dolor sit amet consectetur, adipiscing elit commodo varius."
+          }
+        />
+        <Card
+          title={"Debugging"}
+          text={
+            "Lorem ipsum dolor sit amet consectetur, adipiscing elit aenean venenatis."
+          }
+        />
+      </div> */}
       <div className="flex place-items-center mx-auto">
         <div className="max-w-lg">
           <Carrousel autoSlide={true}>
