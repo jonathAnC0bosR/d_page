@@ -1,7 +1,7 @@
 import { ChevronLeft, ChevronRight } from "@mui/icons-material"
 import { useEffect, useState } from "react"
 
-export default function Carrousel({ children: slides, autoSlide=false, autoSlideInterval=3000 }) {
+export default function Carrousel({ children: slides, autoSlide=false, autoSlideInterval=1500 }) {
 
     const [curr, setCurr] = useState(0)
 

@@ -23,13 +23,13 @@ export default function AboutUs() {
           <p className="text-gray-500">{text}</p>
           <div className="grid grid-cols-2 gap-9 mt-5">
             <div className="bg-neutral-100 drop-shadow-m p-5">
-              <h1 className="text-center text-blue-500 font-semibold text-xl drop ">
+              <h1 className="text-center text-blue-500 font-semibold text-lg drop ">
                 MISION
               </h1>
               <p className="text-gr">{mision}</p>
             </div>
             <div className="p-5 bg-neutral-100 drop-shadow-m">
-              <h1 className="text-center text-blue-500 font-semibold text-xl">
+              <h1 className="text-center text-blue-500 font-semibold text-lg">
                 VISION
               </h1>
               <p>{vision}</p>

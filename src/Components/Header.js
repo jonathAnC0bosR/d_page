@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { FiMenu } from 'react-icons/fi';
 import Link from './Link';
-import g_logo from '../g_logo.jpg'
+// import g_logo from '../g_logo.jpg'
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
