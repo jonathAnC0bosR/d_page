@@ -1,17 +1,18 @@
-import Header from "./Components/Header";
-// import Landing from "./Components/Landing";
-import NewLanding from "./Components/NewLanding";
+import Landing from "./Components/Landing";
 import Middle from "./Components/Middle"
 import AboutUs from "./Components/AboutUs";
-// import Footer from .....
+import NewHeader from "./Components/NewHeader";
+
 import "./App.css";
 
 function App() {
   return (
-    <div className="bg-blue-600 ">
-      <div><Header /></div>
+    <div className="bg-blue-700">
+      <div>
+        <NewHeader />
+      </div>
       <div className="">
-        <NewLanding />
+        <Landing />
       </div>
       <div>
         <Middle />

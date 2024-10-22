@@ -1,11 +1,9 @@
-// import Clickable from "./Clickable";
-// import t_img from "../dron_T.png";
 import { ContactMail, DescriptionOutlined } from "@mui/icons-material";
 import { ReactTyped } from "react-typed";
 import tg from "../Images/TM.jpeg"
 import { motion,} from "framer-motion";
 
-export default function NewLanding() {
+export default function Landing() {
   return (
     <div className="px-5 py-6 text-white lg:grid lg:grid-cols-2 rounded-md mx-4">
       <div className="my-5">
