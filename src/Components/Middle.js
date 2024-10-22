@@ -1,7 +1,7 @@
-import img_1 from "../Images/Component 1 (1).png";
-import img_2 from "../Images/img_2.jpeg";
-import img_3 from "../Images/img_3.jpeg";
-import img_4 from "../Images/img_4.jpeg";
+import img_1 from "../Images/Group 1.svg";
+import img_2 from "../Images/Group 3.svg";
+import img_3 from "../Images/Group 5.svg";
+import img_4 from "../Images/Group 7.svg";
 import { motion } from "framer-motion";
 import Carrousel from "./Carrousel";
 import { GiDeliveryDrone } from "react-icons/gi";
@@ -39,49 +39,11 @@ export default function Middle() {
           Our services
         </motion.button>
       </div>
-      {/* <div className="lg:flex-1 lg:grid gap-3 sm:grid-cols-3 lg:grid-rows-2 items-center grid grid-rows-5">
-        <Card
-          title={"Termography"}
-          text={
-            "Lorem ipsum dolor sit amet consectetur, adipiscing elit eros fringilla."
-          }
-        />
-        <Card
-          title={"Reports"}
-          text={
-            "Lorem ipsum dolor sit amet consectetur, adipiscing elit eget convallis."
-          }
-        />
-        <Card
-          title={"Monitoring"}
-          text={
-            "Lorem ipsum dolor sit amet consectetur, adipiscing elit natoque erat."
-          }
-        />
-        <Card
-          title={"Analysis"}
-          text={
-            "Lorem ipsum dolor sit amet consectetur, adipiscing elit interdum vestibulum."
-          }
-        />
-        <Card
-          title={"AI"}
-          text={
-            "Lorem ipsum dolor sit amet consectetur, adipiscing elit commodo varius."
-          }
-        />
-        <Card
-          title={"Debugging"}
-          text={
-            "Lorem ipsum dolor sit amet consectetur, adipiscing elit aenean venenatis."
-          }
-        />
-      </div> */}
       <div className="flex place-items-center mx-auto">
         <div className="max-w-lg">
-          <Carrousel autoSlide={true}>
+          <Carrousel autoSlide={false}>
             {slides.map((i) => (
-              <img src={i} alt="img" className="" />
+              <img src={i} alt="img" className="rounded-lg" />
             ))}
           </Carrousel>
         </div>

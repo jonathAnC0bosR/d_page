@@ -1,7 +1,7 @@
 import { ChevronLeft, ChevronRight } from "@mui/icons-material"
 import { useEffect, useState } from "react"
 
-export default function Carrousel({ children: slides, autoSlide=false, autoSlideInterval=1500 }) {
+export default function Carrousel({ children: slides, autoSlide=false, autoSlideInterval=3000 }) {
 
     const [curr, setCurr] = useState(0)
 
@@ -28,11 +28,11 @@ export default function Carrousel({ children: slides, autoSlide=false, autoSlide
                     <ChevronRight />
                 </button>
             </div>
-            <div className="absolute bottom-4 right-0 left-0">
+            <div className="absolute bottom-8 right-0 left-0">
                 <div className="flex items-center justify-center gap-2">
                     {slides.map((_, i) => (
                         <div className={
-                            `transition all w-3 h-3 bg-white rounded-full
+                            `transition all w-3 h-3 bg-black rounded-full
                             ${curr === i ? "p-1": "bg-opacity-50"}
                             `
                         } />
