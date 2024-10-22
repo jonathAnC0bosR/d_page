@@ -8,9 +8,9 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="bg-blue-600 w-full">
+    <div className="bg-blue-600 ">
       <div><Header /></div>
-      <div className="sm:mt-4">
+      <div className="">
         <NewLanding />
       </div>
       <div>
