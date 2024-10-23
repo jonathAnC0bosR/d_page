@@ -8,7 +8,7 @@ import "./App.css";
 function App() {
   return (
     <div className="bg-blue-700">
-      <div>
+      <div className="pb-16">
         <NewHeader />
       </div>
       <div className="">
@@ -17,9 +17,9 @@ function App() {
       <div>
         <Middle />
       </div>
-      <div>
+      {/* <div>
         <AboutUs />
-      </div>
+      </div> */}
     </div>
   );
 }

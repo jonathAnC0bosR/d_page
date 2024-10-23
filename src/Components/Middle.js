@@ -39,7 +39,7 @@ export default function Middle() {
           Our services
         </motion.button>
       </div>
-      <div className="flex place-items-center mx-auto">
+      <div className="mx-auto">
         <div className="max-w-lg">
           <Carrousel autoSlide={false}>
             {slides.map((i) => (

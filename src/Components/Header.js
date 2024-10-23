@@ -32,7 +32,6 @@ export default function Header() {
           <Link name="Contact" />
         </div>
 
-        {/* Hamburger menu for small screens */}
         <div className="lg:hidden">
           <button
             onClick={toggleMenu}
@@ -43,7 +42,6 @@ export default function Header() {
         </div>
       </div>
 
-      {/* Dropdown menu for mobile */}
       {isMenuOpen && (
         <div className="fixed top-14 left-0 right-0 grid gap-1 bg-white text-black p-4 rounded-md shadow-lg z-40 lg:hidden w-full">
           <p className="hover:font-extrabold">Home</p>
@@ -53,11 +51,6 @@ export default function Header() {
           <p>Contact</p>
         </div>
       )}
-
-      {/* To avoid content overlapping with the fixed header */}
-      <div className="mt-16">
-        {/* Your page content goes here */}
-      </div>
     </>
   );
 }

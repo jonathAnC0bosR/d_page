@@ -24,12 +24,12 @@ export default function Landing() {
         </p>
       </div>
       <div className="lg:grid lg:grid-rows-2 lg:grid-cols-2 flex flex-col lg:space-y-0 space-y-3">
-        <motion.div className="row-span-2"
+        <motion.div className="row-span-2 flex justify-center"
           whileHover={{ x:-10 }}
         >
           <img src={tg} alt="Termography img" className="h-full" />
         </motion.div>
-        <motion.button className="flex justify-center space-x-3 bg-neutral-100 text-black items-center lg:h-40 h-20 "
+        <motion.button className="flex justify-center space-x-3 bg-neutral-100 text-black items-center lg:h-40 h-20 lg:rounded-none rounded-lg"
           whileHover={{
             // background: "linear-gradient(45deg, hsla(217, 100%, 50%, 1) 40%, hsla(0, 0%, 0%, 1) 88%",
             y: -5,
@@ -46,7 +46,7 @@ export default function Landing() {
             Request more information
           </p>
         </motion.button>
-        <motion.div className="flex justify-center space-x-3 bg-neutral-100 text-black items-center lg:h-40 h-20"
+        <motion.div className="flex justify-center space-x-3 bg-neutral-100 text-black items-center lg:h-40 h-20 lg:rounded-none rounded-lg"
         whileHover={{
           x:10,
           y:5
